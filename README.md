@@ -83,7 +83,7 @@ flowchart TD
 ### Installation & Run
 ```bash
 # 1. Clone the repository
-git clone https://github.com/your-team/badr-health.git
+git clone https://github.com/BADR-HEALTH-TEAM/badr-health.git
 cd badr-health
 
 # 2. Install dependencies (first run only)
