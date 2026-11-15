@@ -1,0 +1,6 @@
+{
+  "origin": "AI-assisted generator",
+  "synthetic": true,
+  "method": "Robust Median & MAD on 14-day calibration window",
+  "exported_at": "2026-11-14T12:47:26.297059+00:00"
+}

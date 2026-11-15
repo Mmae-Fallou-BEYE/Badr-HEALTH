@@ -1,0 +1,12 @@
+{
+  "mission_day": 124,
+  "temperature": 38.1,
+  "heart_rate": 108,
+  "blood_pressure": "142/92",
+  "spo2": 96,
+  "sleep_hours": 4.8,
+  "mood": "Moderate stress",
+  "exercise_minutes": 18,
+  "radiation_daily": 0.19,
+  "radiation_cumulative": 41.3
+}

@@ -1,0 +1,76 @@
+{
+  "overall_assessment": "The astronaut has a temperature of 38.1 C, a heart rate of 108 bpm and a blood pressure of 142/92 mmHg. Sleep duration was 4.8 hours, and these findings require medical review. Insufficient data are available to establish a cause.",
+  "detected_abnormalities": [
+    {
+      "parameter": "temperature_c",
+      "observed": "38.1 C",
+      "interpretation": "elevated above typical resting range",
+      "evidence": {
+        "field": "temperature_c",
+        "value": "38.1"
+      }
+    },
+    {
+      "parameter": "heart_rate_bpm",
+      "observed": "108 bpm",
+      "interpretation": "elevated above typical resting range",
+      "evidence": {
+        "field": "heart_rate_bpm",
+        "value": "108"
+      }
+    },
+    {
+      "parameter": "blood_pressure",
+      "observed": "142/92 mmHg",
+      "interpretation": "elevated blood pressure",
+      "evidence": {
+        "field": "blood_pressure",
+        "value": "142/92"
+      }
+    },
+    {
+      "parameter": "sleep_hours",
+      "observed": "4.8 hours",
+      "interpretation": "short sleep duration",
+      "evidence": {
+        "field": "sleep_hours",
+        "value": "4.8"
+      }
+    }
+  ],
+  "possible_risks": [
+    {
+      "risk": "possible heat-related illness",
+      "basis": [
+        {
+          "field": "temperature_c",
+          "value": "38.1"
+        }
+      ],
+      "uncertainty": "Moderate"
+    },
+    {
+      "risk": "possible cardiovascular stress",
+      "basis": [
+        {
+          "field": "heart_rate_bpm",
+          "value": "108"
+        },
+        {
+          "field": "blood_pressure",
+          "value": "142/92"
+        }
+      ],
+      "uncertainty": "Moderate"
+    }
+  ],
+  "recommendations": [
+    "Recheck vital signs",
+    "Notify the flight surgeon"
+  ],
+  "risk_level": "Moderate",
+  "contact_flight_surgeon": {
+    "decision": "Yes",
+    "reason": "Fever 38.1 C with heart rate 108 bpm and blood pressure 142/92 mmHg requires review."
+  }
+}

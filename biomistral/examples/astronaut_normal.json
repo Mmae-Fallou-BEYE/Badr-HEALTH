@@ -1,0 +1,18 @@
+{
+  "mission_day": 120,
+  "astronaut_id": "AST-001",
+  "temperature_c": 36.6,
+  "heart_rate_bpm": 68,
+  "blood_pressure": {
+    "systolic": 118,
+    "diastolic": 76
+  },
+  "spo2_pct": 98,
+  "sleep_hours": 7.5,
+  "sleep_quality": "good",
+  "mood": "Good",
+  "exercise_minutes": 45,
+  "symptoms": [],
+  "radiation_daily_msv": 0.12,
+  "radiation_cumulative_msv": 15.4
+}

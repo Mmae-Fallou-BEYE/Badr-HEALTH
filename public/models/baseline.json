@@ -1,0 +1,206 @@
+{
+  "ast-01": {
+    "heart_rate": {
+      "metric": "heart_rate",
+      "median": 68.0,
+      "mad": 3.5,
+      "n": 336,
+      "fitted_at": "2026-11-14T12:47:26.295802+00:00"
+    },
+    "spo2": {
+      "metric": "spo2",
+      "median": 98.0,
+      "mad": 0.8,
+      "n": 336,
+      "fitted_at": "2026-11-14T12:47:26.295834+00:00"
+    },
+    "blood_pressure_sys": {
+      "metric": "blood_pressure_sys",
+      "median": 118.0,
+      "mad": 3.0,
+      "n": 336,
+      "fitted_at": "2026-11-14T12:47:26.295840+00:00"
+    },
+    "blood_pressure_dia": {
+      "metric": "blood_pressure_dia",
+      "median": 76.0,
+      "mad": 2.0,
+      "n": 336,
+      "fitted_at": "2026-11-14T12:47:26.295844+00:00"
+    },
+    "body_temp": {
+      "metric": "body_temp",
+      "median": 36.8,
+      "mad": 0.15,
+      "n": 336,
+      "fitted_at": "2026-11-14T12:47:26.295847+00:00"
+    },
+    "cabin_co2": {
+      "metric": "cabin_co2",
+      "median": 1250.0,
+      "mad": 80.0,
+      "n": 336,
+      "fitted_at": "2026-11-14T12:47:26.295850+00:00"
+    },
+    "radiation_dose_rate": {
+      "metric": "radiation_dose_rate",
+      "median": 22.0,
+      "mad": 2.0,
+      "n": 336,
+      "fitted_at": "2026-11-14T12:47:26.295854+00:00"
+    }
+  },
+  "ast-02": {
+    "heart_rate": {
+      "metric": "heart_rate",
+      "median": 68.0,
+      "mad": 3.5,
+      "n": 336,
+      "fitted_at": "2026-11-14T12:47:26.295858+00:00"
+    },
+    "spo2": {
+      "metric": "spo2",
+      "median": 98.0,
+      "mad": 0.8,
+      "n": 336,
+      "fitted_at": "2026-11-14T12:47:26.295861+00:00"
+    },
+    "blood_pressure_sys": {
+      "metric": "blood_pressure_sys",
+      "median": 118.0,
+      "mad": 3.0,
+      "n": 336,
+      "fitted_at": "2026-11-14T12:47:26.295864+00:00"
+    },
+    "blood_pressure_dia": {
+      "metric": "blood_pressure_dia",
+      "median": 76.0,
+      "mad": 2.0,
+      "n": 336,
+      "fitted_at": "2026-11-14T12:47:26.295867+00:00"
+    },
+    "body_temp": {
+      "metric": "body_temp",
+      "median": 36.8,
+      "mad": 0.15,
+      "n": 336,
+      "fitted_at": "2026-11-14T12:47:26.295870+00:00"
+    },
+    "cabin_co2": {
+      "metric": "cabin_co2",
+      "median": 1250.0,
+      "mad": 80.0,
+      "n": 336,
+      "fitted_at": "2026-11-14T12:47:26.295873+00:00"
+    },
+    "radiation_dose_rate": {
+      "metric": "radiation_dose_rate",
+      "median": 22.0,
+      "mad": 2.0,
+      "n": 336,
+      "fitted_at": "2026-11-14T12:47:26.295876+00:00"
+    }
+  },
+  "ast-03": {
+    "heart_rate": {
+      "metric": "heart_rate",
+      "median": 68.0,
+      "mad": 3.5,
+      "n": 336,
+      "fitted_at": "2026-11-14T12:47:26.295880+00:00"
+    },
+    "spo2": {
+      "metric": "spo2",
+      "median": 98.0,
+      "mad": 0.8,
+      "n": 336,
+      "fitted_at": "2026-11-14T12:47:26.295883+00:00"
+    },
+    "blood_pressure_sys": {
+      "metric": "blood_pressure_sys",
+      "median": 118.0,
+      "mad": 3.0,
+      "n": 336,
+      "fitted_at": "2026-11-14T12:47:26.295886+00:00"
+    },
+    "blood_pressure_dia": {
+      "metric": "blood_pressure_dia",
+      "median": 76.0,
+      "mad": 2.0,
+      "n": 336,
+      "fitted_at": "2026-11-14T12:47:26.295889+00:00"
+    },
+    "body_temp": {
+      "metric": "body_temp",
+      "median": 36.8,
+      "mad": 0.15,
+      "n": 336,
+      "fitted_at": "2026-11-14T12:47:26.295892+00:00"
+    },
+    "cabin_co2": {
+      "metric": "cabin_co2",
+      "median": 1250.0,
+      "mad": 80.0,
+      "n": 336,
+      "fitted_at": "2026-11-14T12:47:26.295895+00:00"
+    },
+    "radiation_dose_rate": {
+      "metric": "radiation_dose_rate",
+      "median": 22.0,
+      "mad": 2.0,
+      "n": 336,
+      "fitted_at": "2026-11-14T12:47:26.295898+00:00"
+    }
+  },
+  "ast-04": {
+    "heart_rate": {
+      "metric": "heart_rate",
+      "median": 68.0,
+      "mad": 3.5,
+      "n": 336,
+      "fitted_at": "2026-11-14T12:47:26.295902+00:00"
+    },
+    "spo2": {
+      "metric": "spo2",
+      "median": 98.0,
+      "mad": 0.8,
+      "n": 336,
+      "fitted_at": "2026-11-14T12:47:26.295905+00:00"
+    },
+    "blood_pressure_sys": {
+      "metric": "blood_pressure_sys",
+      "median": 118.0,
+      "mad": 3.0,
+      "n": 336,
+      "fitted_at": "2026-11-14T12:47:26.295908+00:00"
+    },
+    "blood_pressure_dia": {
+      "metric": "blood_pressure_dia",
+      "median": 76.0,
+      "mad": 2.0,
+      "n": 336,
+      "fitted_at": "2026-11-14T12:47:26.295911+00:00"
+    },
+    "body_temp": {
+      "metric": "body_temp",
+      "median": 36.8,
+      "mad": 0.15,
+      "n": 336,
+      "fitted_at": "2026-11-14T12:47:26.295914+00:00"
+    },
+    "cabin_co2": {
+      "metric": "cabin_co2",
+      "median": 1250.0,
+      "mad": 80.0,
+      "n": 336,
+      "fitted_at": "2026-11-14T12:47:26.295917+00:00"
+    },
+    "radiation_dose_rate": {
+      "metric": "radiation_dose_rate",
+      "median": 22.0,
+      "mad": 2.0,
+      "n": 336,
+      "fitted_at": "2026-11-14T12:47:26.295920+00:00"
+    }
+  }
+}

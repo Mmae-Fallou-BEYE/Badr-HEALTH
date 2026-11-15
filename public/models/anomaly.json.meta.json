@@ -1,0 +1,6 @@
+{
+  "origin": "AI-assisted generator",
+  "synthetic": true,
+  "algorithm": "Multivariate Robust Anomaly Estimator (Isolation Forest Equivalent)",
+  "exported_at": "2026-11-14T12:47:26.454957+00:00"
+}

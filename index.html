@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%231F7A5A' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z'/><path d='M12 5v4'/><path d='M10 7h4'/></svg>" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Badr Health — Astronaut Health Monitoring</title>
+    <meta name="description" content="Autonomous decision-support health monitoring system for astronauts on deep space missions. Built for NASA Space Apps Dakar 2026." />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  </head>
+  <body class="bg-canvas text-ink antialiased min-h-screen selection:bg-mint selection:text-ink">
+    <div id="root"></div>
+    <script>
+      // Fallback helper if user double-clicks index.html directly from file explorer
+      if (window.location.protocol === 'file:') {
+        document.addEventListener('DOMContentLoaded', function() {
+          setTimeout(function() {
+            var root = document.getElementById('root');
+            if (root && root.children.length === 0) {
+              root.innerHTML = '<div style="font-family: system-ui, sans-serif; max-width: 650px; margin: 60px auto; padding: 32px; background: white; border-radius: 24px; box-shadow: 0 10px 30px rgba(0,0,0,0.08); text-align: center; color: #13211B; border: 1px solid #E2EAE3;">' +
+                '<div style="font-size: 48px; margin-bottom: 12px;">🛰️</div>' +
+                '<h2 style="font-size: 22px; font-weight: 800; margin-bottom: 8px; color: #1F7A5A;">Badr Health — 1-Click Application Launcher</h2>' +
+                '<p style="font-size: 14px; color: #5E6F66; line-height: 1.6; margin-bottom: 24px;">Web browsers block modern React module scripts for security reasons when opened directly via a <code>file://</code> protocol.</p>' +
+                '<div style="background: #E9F1EA; padding: 20px; border-radius: 18px; font-size: 15px; color: #0F3D2E; margin-bottom: 20px; border: 2px dashed #1F7A5A;">' +
+                '👉 <strong>Simply double-click this launcher script in your project folder:</strong><br>' +
+                '<div style="margin-top: 10px; font-size: 18px; font-family: monospace; font-weight: bold; background: white; padding: 10px 16px; border-radius: 12px; display: inline-block; color: #1F7A5A; border: 1px solid #CBDAD1;">START_BADR_HEALTH.bat</div>' +
+                '</div>' +
+                '<p style="font-size: 13px; color: #5E6F66; line-height: 1.5;">It will start the local telemetry server and <strong>automatically open your default browser</strong> (Chrome/Edge/Firefox) without needing manual terminal commands.</p>' +
+                '</div>';
+            }
+          }, 600);
+        });
+      }
+    </script>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

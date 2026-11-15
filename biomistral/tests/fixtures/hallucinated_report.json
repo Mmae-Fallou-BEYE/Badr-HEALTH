@@ -1,0 +1,34 @@
+{
+  "overall_assessment": "The astronaut shows fever and tachycardia requiring medical review.",
+  "detected_abnormalities": [
+    {
+      "parameter": "temperature_c",
+      "observed": "38.1 C",
+      "interpretation": "elevated above typical resting range",
+      "evidence": {
+        "field": "temperature_c",
+        "value": "38.1"
+      }
+    }
+  ],
+  "possible_risks": [
+    {
+      "risk": "Heat stroke",
+      "basis": [
+        {
+          "field": "temperature_c",
+          "value": "38.1"
+        }
+      ],
+      "uncertainty": "Moderate"
+    }
+  ],
+  "recommendations": [
+    "Notify the flight surgeon"
+  ],
+  "risk_level": "Moderate",
+  "contact_flight_surgeon": {
+    "decision": "Yes",
+    "reason": "Astronaut has a history of sleep apnea"
+  }
+}

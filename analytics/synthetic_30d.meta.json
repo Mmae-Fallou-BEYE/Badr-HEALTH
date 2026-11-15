@@ -1,0 +1,16 @@
+{
+  "origin": "AI-assisted generator",
+  "synthetic": true,
+  "days": 30,
+  "rows_count": 2880,
+  "parameters": {
+    "circadian_modeling": "24h sinusoidal curve",
+    "noise": "Gaussian distribution with calibrated sigma",
+    "injected_events": [
+      "Day 12 SPE radiation spike",
+      "Day 20 ast-01 Hypoxia incident"
+    ]
+  },
+  "license": "CC-BY-4.0",
+  "generated_at": "2026-11-14T12:47:34.506446+00:00"
+}
